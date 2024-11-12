@@ -26,3 +26,7 @@ func init() {
 func init() {
 	R = 1.0
 }
+
+func init() {
+	fmt.Println("To make sure that all inits are called:)")
+}
